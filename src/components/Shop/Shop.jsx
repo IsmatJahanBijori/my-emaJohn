@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { addToDb, getShoppingCart } from '../../utilities/fakedb';
+import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import './Shop.css'
 
@@ -12,11 +14,42 @@ const Shop = () => {
     }, []);
 
 
+    // ei jinis ta mainly kora hoiche karon amra jeno pore fire eshe amader store kora product gula dekhte pari
+     
+    useEffect(() => {
+        const storedCart = getShoppingCart()
+        // console.log(storedCart)
+        const savedCart=[]
+
+        // step1: get id
+        for (const id in storedCart) {
+            // console.log(id)
+
+            // step 2: get product by using id
+            const addedProduct = products.find(product => product.id === id);
+            // console.log(addedProduct)
+
+            if (addedProduct) {
+                // step 3:  get quantity from storage
+                const quantity = storedCart[id]
+                addedProduct.quantity = quantity
+                // console.log(addedProduct)
+
+
+                // step 4: push new added product to the saved cart
+                savedCart.push(addedProduct)
+                // console.log(savedCart)
+            }
+        }
+        // step 5: set the cart 
+        setCart(savedCart)
+    }, [products])
     // button handling
     const handleAddToCart = (product) => {
         // console.log(product)
         const newCart = [...cart, product]
         setCart(newCart)
+        addToDb(product.id)
     }
     return (
         <div className='shop-container'>
@@ -26,8 +59,7 @@ const Shop = () => {
                 }
             </div>
             <div>
-                <h3>Order Summary</h3>
-                <p>Selected Items: {cart.length}</p>
+                <Cart cart={cart}></Cart>
             </div>
         </div>
     );
