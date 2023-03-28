@@ -1,0 +1,23 @@
+.product img {
+    width: 280px;
+    height: 280px;
+    border-radius: 5px;
+}
+
+.product {
+    text-align: center;
+    width: 350px;
+    height: 508px;
+    border: 1px solid burlywood;
+    border-radius: 10px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.product button {
+    width: 100%;
+    background-color: #FFE0B3;
+    color: rgb(106, 96, 96);
+    bottom: 0;
+}
