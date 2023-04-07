@@ -1,8 +1,8 @@
 import React from 'react';
 import './Cart.css'
-const Cart = (props) => {
+const Cart = ({cart, handleClearCart, children}) => {
     // console.log(props)
-    const cart = props.cart
+    // const cart = props.cart
     let totalPrice = 0
     let totalShipping = 0
     let quantity = 0
@@ -22,8 +22,11 @@ const Cart = (props) => {
             <p>Total Shipping Charge: ${totalShipping}</p>
             <p>Tax: ${tax.toFixed(2)}</p>
             <p>Grand Total: ${grandTotal.toFixed(2)}</p>
+            <button onClick={handleClearCart} className='btn-clear'>Clear cart</button>
+            {children}
+            
         </div>
     );
 };
-
+// <button className='btn-check'>Proceed Checkout</button>
 export default Cart;
