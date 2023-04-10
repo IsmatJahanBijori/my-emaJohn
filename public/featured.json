@@ -1,0 +1,123 @@
+[
+    {
+        "id": "123456",
+        "logo": "/src/assets/google-1-1 1-1.png",
+        "job_title": "Front-End Web Developer",
+        "company_name": "Tech Solutions Inc.",
+        "remote_or_onsite": "Remote",
+        "location": "Chicago, IL",
+        "location_logo":"/src/assets/Location Icon.png",
+        "full_time_or_part_time": "Full-time",
+        "salary": "$70,000 - $90,000",
+        "frame": "/src/assets/Frame.png",
+        "job_description": "We are seeking a skilled Front-End Web Developer to join our growing team. The ideal candidate will have experience building responsive web applications using modern front-end technologies.",
+        "job_responsibility": "- Develop and maintain modern, responsive web applications using HTML, CSS, and JavaScript\n- Collaborate with back-end developers to integrate front-end features into web applications\n- Optimize web applications for maximum speed and scalability",
+        "education_requirements": "Bachelor's degree in Computer Science or related field",
+        "experiences": "2+ years of experience as a front-end web developer",
+        "contact_info": {
+          "phone": "(123) 456-7890",
+          "email": "jobs@techsolutions.com"
+        }
+      },
+      {
+        "id": "789012",
+        "logo": "/src/assets/tesla-9 1.png",
+        "job_title": "Marketing Manager",
+        "company_name": "Growth Marketing Co.",
+        "remote_or_onsite": "Onsite",
+        "location": "New York, NY",
+        "location_logo":"/src/assets/Location Icon.png",
+        "full_time_or_part_time": "Full-time",
+        "salary": "$80,000 - $100,000",
+        "frame": "/src/assets/Frame.png",
+        "job_description": "We are seeking an experienced Marketing Manager to lead our team of marketing professionals. The ideal candidate will have a track record of driving growth and engagement through innovative marketing strategies.",
+        "job_responsibility": "- Develop and execute marketing strategies to drive growth and engagement\n- Manage a team of marketing professionals to execute marketing campaigns and initiatives\n- Analyze marketing data to optimize campaigns and improve performance",
+        "education_requirements": "Bachelor's degree in Marketing, Business, or related field",
+        "experiences": "5+ years of experience in marketing, with at least 2 years in a management role",
+        "contact_info": {
+          "phone": "(123) 456-7890",
+          "email": "jobs@growthmarketingco.com"
+        }
+      },
+      {
+        "id": "345678",
+        "logo": "/src/assets/netflix-4 1.png",
+        "job_title": "Software Engineer",
+        "company_name": "Innovative Software Solutions",
+        "remote_or_onsite": "Remote",
+        "location": "Any",
+        "location_logo":"/src/assets/Location Icon.png",
+        "full_time_or_part_time": "Full-time",
+        "salary": "$90,000 - $110,000",
+        "frame": "/src/assets/Frame.png",
+        "job_description": "We are seeking a talented Software Engineer to join our team of experienced developers. The ideal candidate will have experience developing software solutions using modern programming languages and frameworks.",
+        "job_responsibility": "- Design, develop, and maintain software solutions using modern programming languages and frameworks\n- Collaborate with cross-functional teams to identify and solve complex software problems\n- Write clean, efficient, and maintainable code",
+        "education_requirements": "Bachelor's degree in Computer Science or related field",
+        "experiences": "3+ years of experience in software engineering",
+        "contact_info": {
+          "phone": "(123) 456-7890",
+          "email": "jobs@innovativesoftwaresolutions.com"
+        }
+      }, 
+      {
+        "id": "567890",
+        "logo": "/src/assets/google-1-1 1.png",
+        "job_title": "Data Analyst",
+        "company_name": "Insightful Analytics Inc.",
+        "remote_or_onsite": "Onsite",
+        "location": "Chicago, IL",
+        "location_logo":"/src/assets/Location Icon.png",
+        "full_time_or_part_time": "Full-time",
+        "salary": "$60,000 - $80,000",
+        "frame": "/src/assets/Frame.png",
+        "job_description": "We are seeking a talented Data Analyst to join our team of analysts. The ideal candidate will have experience analyzing large datasets and communicating insights to stakeholders.",
+        "job_responsibility": "- Analyze large datasets to identify trends and insights\n- Create visualizations and reports to communicate insights to stakeholders\n- Collaborate with cross-functional teams to drive data-informed decision-making",
+        "education_requirements": "Bachelor's degree in Mathematics, Statistics, or related field",
+        "experiences": "2+ years of experience in data analysis",
+        "contact_info": {
+          "phone": "(123) 456-7890",
+          "email": "jobs@insightfulanalytics.com"
+        }
+      }
+      ,{
+        "id": "234567",
+        "logo": "/src/assets/Vector-1.png",
+        "job_title": "Product Manager",
+        "company_name": "Next-Generation Tech Inc.",
+        "remote_or_onsite": "Onsite",
+        "location": "San Francisco, CA",
+        "location_logo":"/src/assets/Location Icon.png",
+        "full_time_or_part_time": "Full-time",
+        "salary": "$100,000 - $120,000",
+        "frame": "/src/assets/Frame.png",
+        "job_description": "We are seeking a skilled Product Manager to lead our product development efforts. The ideal candidate will have experience developing and launching successful software products.",
+        "job_responsibility": "- Lead product development efforts from ideation to launch\n- Collaborate with cross-functional teams to identify customer needs and develop product roadmaps\n- Analyze product performance data to identify areas for improvement",
+        "education_requirements": "Bachelor's degree in Computer Science, Engineering, or related field",
+        "experiences": "5+ years of experience in product management, with a track record of successful product launches",
+        "contact_info": {
+          "phone": "(123) 456-7890",
+          "email": "jobs@nextgentech.com"
+        }
+      },
+      
+      {
+        "id": "901234",
+        "logo": "/src/assets/tesla-9 1.png",
+        "job_title": "HR Coordinator",
+        "company_name": "People Solutions LLC",
+        "remote_or_onsite": "Onsite",
+        "location": "Boston, MA",
+        "location_logo":"/src/assets/Location Icon.png",
+        "full_time_or_part_time": "Part-time",
+        "salary": "$25 - $30 per hour",
+        "frame": "/src/assets/Frame.png",
+        "job_description": "We are seeking an HR Coordinator to support our HR team with various administrative tasks. The ideal candidate will have excellent organizational skills and attention to detail.",
+        "job_responsibility": "- Assist with HR administrative tasks, such as scheduling interviews and processing new hires\n- Maintain HR databases and employee files\n- Provide general HR support to employees",
+        "education_requirements": "Associate's degree in Human Resources, Business Administration, or related field",
+        "experiences": "1+ years of experience in HR administration or related field",
+        "contact_info": {
+          "phone": "(123) 456-7890",
+          "email": "jobs@peoplesolutions.com"
+        }
+      }
+]
